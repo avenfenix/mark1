@@ -7,7 +7,7 @@ Source Code and Development of Mark I.
 
 ## To Do
 - [ ] Share Network over Wifi on boot and connect automatically tablet to this network.
-- [ ] Sunshine start on boot.
+- [ ] Sunshine start on boot for share desktop.
 - [ ] Optimize connection.
 - [ ] Optimize Raspberry Pi.
 
