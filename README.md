@@ -10,3 +10,8 @@ Source Code and Development of Mark I.
 - [ ] Sunshine start on boot.
 - [ ] Optimize connection.
 - [ ] Optimize Raspberry Pi.
+
+
+## Referencias
+
+- [Wireless Access Point with RPI](https://thepi.io/how-to-use-your-raspberry-pi-as-a-wireless-access-point/)
