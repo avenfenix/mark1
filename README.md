@@ -14,9 +14,10 @@ Source Code and Development of Mark I.
 - [ ] Sunshine start on boot for share desktop.
 - [ ] WakeOnLan on Moonlight Tablet for boot RPI.
 
-### Misc
+### Performance
 - [ ] Optimize connection.
 - [ ] Optimize Raspberry Pi.
+- [ ] Temperature Monitor
 
 
 ## Referencias
