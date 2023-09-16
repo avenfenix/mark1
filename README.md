@@ -23,3 +23,4 @@ Source Code and Development of Mark I.
 ## Referencias
 
 - [Wireless Access Point with RPI](https://thepi.io/how-to-use-your-raspberry-pi-as-a-wireless-access-point/)
+- [Temperature Monitor linuxhint.com](https://linuxhint.com/raspberry_pi_temperature_monitor/)
