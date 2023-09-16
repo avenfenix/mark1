@@ -6,9 +6,15 @@ Source Code and Development of Mark I.
 - Tablet with MT6592 CPU (Bootloader Locked)
 
 ## To Do
+
+### Network
 - [ ] Share Network over Wifi on boot and connect automatically tablet to this network.
+
+### Display
 - [ ] Sunshine start on boot for share desktop.
 - [ ] WakeOnLan on Moonlight Tablet for boot RPI.
+
+### Misc
 - [ ] Optimize connection.
 - [ ] Optimize Raspberry Pi.
 
