@@ -19,8 +19,16 @@ Source Code and Development of Mark I.
 - [ ] Optimize Raspberry Pi.
 - [ ] Temperature Monitor
 
+### Android
+- [ ] Compilar platforms-tools
+
 
 ## Referencias
 
+### Misc
 - [Wireless Access Point with RPI](https://thepi.io/how-to-use-your-raspberry-pi-as-a-wireless-access-point/)
 - [Temperature Monitor linuxhint.com](https://linuxhint.com/raspberry_pi_temperature_monitor/)
+
+### Android
+- [ADB Para ARM](https://github.com/qhuyduong/arm_adb)
+- [ACLOCAL](https://stackoverflow.com/questions/33278928/how-to-overcome-aclocal-1-15-is-missing-on-your-system-warning)
