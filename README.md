@@ -5,6 +5,7 @@ Source Code and Development of Mark I.
 - Raspberry Pi 4b rev1.4
 - Tablet with MT6592 CPU (Bootloader Locked)
 - Motorola E7i Power (Bootloader Locked)
+- [USB SanDisk 3.2Gen1 (28,67 GiB)](./USB1.md)
 ## Descripcion
 
 *Mark I* seria el primer sistema distribuido desplegable localmente de los muchos que se esperan crear. Su cometido es asistir, ayudar, traducir idiomas, hackear, pasar de voz a texto, ofrecer servicios de todo tipo, etc. etc. etc. Si bien la complejidad de desplegar en distintos dispositivos e ir agregando dispositivos es bastante alta esperamos que este software ayude a que esta tarea en especifica y tambien ayude a poder crear este tipo de sistema mucho mas comunmente. La gran funcionalidad y su poder computacional es un logro esperable si todo sale como debe. Hay muchos temas de optimizacion que se deben resolver.
