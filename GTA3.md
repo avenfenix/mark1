@@ -24,3 +24,4 @@ Las carpetas son: `anim` `models` ``
 - [Link GTA 3 Windows](https://www.gratispaste.com/?v=7945)
 - [Caps.dat](https://gtamods.com/wiki/CAPS.DAT)
 - [Standard 'data' folder](https://libertycity.net/files/gta-3/64539-standartnaja-papka-data.html)
+- [re3 Game files](https://codeberg.org/Jeder/re3/src/branch/master/gamefiles)
