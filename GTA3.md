@@ -6,6 +6,8 @@
 - [ ] Descargar archivos faltantes del juego
 - [ ] Enjoy
 
-## Referencias
+## Archivos Faltantes
+
+Las carpetas son: `anim` `models` ``
 
 - [Link GTA 3 Windows](https://www.gratispaste.com/?v=7945)
