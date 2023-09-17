@@ -6,6 +6,13 @@
 - [ ] Descargar archivos faltantes del juego
 - [ ] Enjoy
 
+## Arbol de archivos
+
+- USB1
+    - games
+        - gta3.zip
+        - data.7z
+
 ## Archivos Faltantes
 
 Las carpetas son: `anim` `models` ``
