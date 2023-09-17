@@ -22,3 +22,5 @@ Las carpetas son: `anim` `models` ``
 ```The file/directory ./models/frontend_xone.txd is missing.```
 
 - [Link GTA 3 Windows](https://www.gratispaste.com/?v=7945)
+- [Caps.dat](https://gtamods.com/wiki/CAPS.DAT)
+- [Standard 'data' folder](https://libertycity.net/files/gta-3/64539-standartnaja-papka-data.html)
