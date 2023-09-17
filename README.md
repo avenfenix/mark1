@@ -13,6 +13,7 @@ Source Code and Development of Mark I.
 - [Compartir escritorio linux via Sunshine](./SHARING_DESKTOP.md)
 - [Optimizar Raspberry PI 4](./RPI_BOOST.md)
 - [Monitor API](./MONITOR_API.md)
+- [Games](./GAMES.md)
 
 ## To Do
 
