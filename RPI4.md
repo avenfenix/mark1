@@ -19,8 +19,9 @@ apt-get install firefox-esr
 apt-get install git
 ```
 
-## Montar `USB1` automaticamente
-
+## Montar `USB1` al encender 
+- [x] Montar `USB1` cuando la RPI4 se encienda.
+- [ ] Script sh o python para configurar esto automaticamente
 ```
 sudo fdisk -l
 ```
@@ -39,4 +40,4 @@ echo "UUID=<UUID de USB1> /home/$USER/USB1 ext4  user,errors=remount-ro,auto,exe
 ## To Do
 
 - [ ] [Compartir internet como access point al iniciar](./RPI4_AP.md)
-- [ ] Montar `USB1` automaticamente.
+
