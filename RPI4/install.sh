@@ -31,8 +31,8 @@ apt-get install -f ./sunshine-debian-bullseye-arm64.deb
 
 ### MOONLIGHT
 curl -1sLf 'https://dl.cloudsmith.io/public/moonlight-game-streaming/moonlight-qt/setup.deb.sh' | distro=raspbian codename=buster sudo -E bash
-sudo apt install moonlight-qt
-sudo apt update
-sudo apt upgrade
+apt install moonlight-qt
+apt update
+apt upgrade
 # Habilitar Hardware Decoding
 cat ./boot/config.txt > /boot/config.txt 
