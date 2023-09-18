@@ -17,5 +17,5 @@ apt-get upgrade
 
 ## SOFTWARE
 apt-get install firefox-esr                         
-apt-get install git                                  
+#apt-get install git                                  
 curl -fsSL https://code-server.dev/install.sh | sh
