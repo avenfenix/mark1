@@ -10,9 +10,10 @@ sudo ./install.sh $USER
 ```
 
 ## Temas
-- [Montar `USB1` en el inicio](./RPI4_USB1.md)
-- [Instalar code-server](./RPI4_CODE.md)
-- [RPI4 como Access Point](./RPI4_AP.md)
+- [Montar `USB1` en el inicio](./USB1.md)
+- [Instalar code-server](./CODE.md)
+- [RPI4 como Access Point](./AP.md)
+- [Sunshine](./SUNSHINE.md)
 
 ## Installation rpi-imager
 - [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
