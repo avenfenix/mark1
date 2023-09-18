@@ -3,11 +3,16 @@
 ## Installation rpi-imager
 - [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
 
-
+## Basics
 ```
 cd /home/$USER
 rm -r *
 mkdir USB1
+```
+
+## Software
+```
+apt-get install firefox-esr
 ```
 
 ## Montar `USB1` automaticamente
