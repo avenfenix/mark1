@@ -34,6 +34,7 @@ cp -r * /home/$USER/games/GTAIII
 ```
 
 
+- [RE3 en 3DS](https://www.gamebrew.org/wiki/RE3_3DS)
 - [Link GTA 3 Windows](https://www.gratispaste.com/?v=7945)
 - [Caps.dat](https://gtamods.com/wiki/CAPS.DAT)
 - [Standard 'data' folder](https://libertycity.net/files/gta-3/64539-standartnaja-papka-data.html)
