@@ -1,5 +1,9 @@
 # Raspberry PI 4 of Mark I
 
+## Indice
+- [Montar `USB1` automaticamente](./RPI4.md)
+
+
 ## Installation rpi-imager
 - [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
 
@@ -17,6 +21,21 @@ apt-get install git
 ```
 
 ## Montar `USB1` automaticamente
+
+```
+sudo fdisk -l
+```
+
+```
+sudo blkid
+```
+
+```
+echo "UUID=<UUID de USB1> /home/$USER/USB1 ext4  user,errors=remount-ro,auto,exec,rw" >> /etc/fstab
+```
+
+```
+```
 
 ## To Do
 
