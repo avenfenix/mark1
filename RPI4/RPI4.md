@@ -15,19 +15,6 @@ sudo ./install.sh $USER
 ## Installation rpi-imager
 - [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
 
-## Basics
-```
-cd /home/$USER
-rm -r *
-mkdir USB1
-```
-
-## Software
-```
-apt-get install firefox-esr                         
-apt-get install git                                  
-curl -fsSL https://code-server.dev/install.sh | sh
-```
 ### Referencias
 - [Home - code-server Docs](https://coder.com/docs/code-server/latest)
 
