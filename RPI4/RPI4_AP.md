@@ -17,9 +17,10 @@ sudo systemctl stop hostapd
 sudo systemctl stop dnsmasq
 ```
 
-## Unmask `hostapd`
+## Unmask and enable `hostapd`
 ```
 sudo systemctl unmask hostapd
+sudo systemctl enable hostapd
 ```
 
 ### Establecer IP fija 
