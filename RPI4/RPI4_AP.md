@@ -17,6 +17,11 @@ sudo systemctl stop hostapd
 sudo systemctl stop dnsmasq
 ```
 
+## Unmask `hostapd`
+```
+sudo systemctl unmask hostapd
+```
+
 ### Establecer IP fija 
 ```
 sudo nano /etc/dhcpcd.conf
