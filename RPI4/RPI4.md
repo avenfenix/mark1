@@ -14,6 +14,7 @@ sudo ./install.sh $USER
 - [Instalar code-server](./CODE.md)
 - [RPI4 como Access Point](./AP.md)
 - [Sunshine](./SUNSHINE.md)
+- [Moonligth-qt](https://github.com/moonlight-stream/moonlight-docs/wiki/Installing-Moonlight-Qt-on-Raspberry-Pi-4)
 
 ## Installation rpi-imager
 - [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
