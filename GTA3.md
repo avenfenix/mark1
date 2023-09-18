@@ -33,6 +33,7 @@ cp -r * /home/$USER/games/GTAIII
 
 ```
 
+- [re3 en Wiiu](https://gbatemp.net/threads/re3-wiiu-gta-iii-wii-u-port.579827/)
 - [Reddit re3 1.3v Vita](https://www.reddit.com/r/vitahacks/comments/lknerp/release_re3vita_v13_gta_iii_port_fixed_mp3_player/)
 - [RE3 en 3DS](https://www.gamebrew.org/wiki/RE3_3DS)
 - [Link GTA 3 Windows](https://www.gratispaste.com/?v=7945)
