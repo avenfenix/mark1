@@ -15,13 +15,16 @@ mkdir USB1
 
 ## Software
 ```
-apt-get install firefox-esr
-apt-get install git
+apt-get install firefox-esr                         
+apt-get install git                                  
+curl -fsSL https://code-server.dev/install.sh | sh
 ```
+
 
 ## Montar `USB1` al encender 
 - [x] Montar `USB1` cuando la RPI4 se encienda.
 - [ ] Script sh o python para configurar esto automaticamente
+
 ```
 sudo fdisk -l
 ```
