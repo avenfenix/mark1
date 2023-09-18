@@ -28,3 +28,11 @@ apt-get install firefox-esr
 ### SUNSHINE
 wget https://github.com/LizardByte/Sunshine/releases/download/v0.20.0/sunshine-debian-bullseye-arm64.deb
 apt-get install -f sunshine-debian-bullseye-arm64.deb
+
+### MOONLIGHT
+curl -1sLf 'https://dl.cloudsmith.io/public/moonlight-game-streaming/moonlight-qt/setup.deb.sh' | distro=raspbian codename=buster sudo -E bash
+sudo apt install moonlight-qt
+sudo apt update
+sudo apt upgrade
+# Habilitar Hardware Decoding
+cat ./boot/config.txt > /boot/config.txt 
