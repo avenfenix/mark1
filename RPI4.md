@@ -24,7 +24,7 @@ curl -fsSL https://code-server.dev/install.sh | sh
 
 ## Montar `USB1` al encender 
 - [x] Montar `USB1` cuando la RPI4 se encienda.
-- [ ] Script sh o python para configurar esto automaticamente
+- [x] Script sh o python para configurar esto automaticamente
 
 ```
 sudo fdisk -l
@@ -39,6 +39,11 @@ echo "UUID=<UUID de USB1> /home/$USER/USB1 ext4  user,errors=remount-ro,auto,exe
 ```
 
 ```
+#!/bin/bash
+
+UUID=$(blkid -s UUID -o value /dev/sda1)
+
+echo "UUID=$UUID /home/$USER/USB1 ext4 user,errors=remount-ro,auto,exec,rw 0 0">
 ```
 ### Referencias
 - [Montar particiones al iniciar linux](https://vivaelsoftwarelibre.com/montar-particiones-al-iniciar-linux-automaticamente/)
