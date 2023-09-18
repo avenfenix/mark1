@@ -13,6 +13,7 @@ mkdir USB1
 ## Software
 ```
 apt-get install firefox-esr
+apt-get install git
 ```
 
 ## Montar `USB1` automaticamente
