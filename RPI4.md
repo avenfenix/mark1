@@ -36,6 +36,8 @@ echo "UUID=<UUID de USB1> /home/$USER/USB1 ext4  user,errors=remount-ro,auto,exe
 
 ```
 ```
+### Referencias
+- [Montar particiones al iniciar linux](https://vivaelsoftwarelibre.com/montar-particiones-al-iniciar-linux-automaticamente/)
 
 ## To Do
 
