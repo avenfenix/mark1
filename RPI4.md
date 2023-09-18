@@ -2,4 +2,4 @@
 
 ## To Do
 
-- [ ] Compartir internet como access point al iniciar
+- [ ] [Compartir internet como access point al iniciar](./RPI4_AP.md)
