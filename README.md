@@ -11,7 +11,6 @@ Source Code and Development of Mark I.
 *Mark I* seria el primer sistema distribuido desplegable localmente de los muchos que se esperan crear. Su cometido es asistir, ayudar, traducir idiomas, hackear, pasar de voz a texto, ofrecer servicios de todo tipo, etc. etc. etc. Si bien la complejidad de desplegar en distintos dispositivos e ir agregando dispositivos es bastante alta esperamos que este software ayude a que esta tarea en especifica y tambien ayude a poder crear este tipo de sistema mucho mas comunmente. La gran funcionalidad y su poder computacional es un logro esperable si todo sale como debe. Hay muchos temas de optimizacion que se deben resolver.
 
 ## Temas
-- [Compartir escritorio linux via Sunshine](./RPI4/SHARING_DESKTOP.md)
 - [Optimizar Raspberry PI 4](./RPI4/RPI_BOOST.md)
 - [Monitor API](./MONITOR_API.md)
 - [Games](./GAMES/GAMES.md)
