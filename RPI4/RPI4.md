@@ -11,15 +11,10 @@ sudo ./install.sh $USER
 
 ## Temas
 - [Montar `USB1` en el inicio](./RPI4_USB1.md)
+- [Instalar code-server](./RPI4_CODE.md)
+- [RPI4 como Access Point](./RPI4_AP.md)
 
 ## Installation rpi-imager
 - [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
 
-### Referencias
-- [Home - code-server Docs](https://coder.com/docs/code-server/latest)
-
-
-## To Do
-
-- [ ] [Compartir internet como access point al iniciar](./RPI4_AP.md)
 
