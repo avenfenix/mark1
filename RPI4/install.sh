@@ -26,6 +26,7 @@ apt-get install firefox-esr
 #curl -fsSL https://code-server.dev/install.sh | sh
 
 ### SUNSHINE
+apt install libboost-chrono1.74.0
 wget https://github.com/LizardByte/Sunshine/releases/download/v0.20.0/sunshine-debian-bullseye-arm64.deb
 apt-get install -f ./sunshine-debian-bullseye-arm64.deb
 
