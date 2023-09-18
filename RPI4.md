@@ -19,7 +19,8 @@ apt-get install firefox-esr
 apt-get install git                                  
 curl -fsSL https://code-server.dev/install.sh | sh
 ```
-
+### Referencias
+- [Home - code-server Docs](https://coder.com/docs/code-server/latest)
 
 ## Montar `USB1` al encender 
 - [x] Montar `USB1` cuando la RPI4 se encienda.
