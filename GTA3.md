@@ -19,9 +19,9 @@ Las carpetas son: `anim` `models` ``
 
 ```The file/directory ./data/CAPS.dat is missing.```
 
+### RE3 Gamefiles
 
 El siguiente error es debido a algunos adicionales de re3 y es facilmente solucionable con algunos comandos. Supongamos los archivos de gta3 se instalan en `/home/$USER/games/GTAIII`
-
 
 ```The file/directory ./models/frontend_xone.txd is missing.```
 
