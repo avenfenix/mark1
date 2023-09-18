@@ -1,5 +1,14 @@
 # Raspberry PI 4 of Mark I
 
+## Instalacion
+
+```
+git clone https://github.com/avenfenix/mark1
+cd mark1/RPI4
+chmod +x ./install.sh
+sudo install.sh
+```
+
 ## Temas
 - [Montar `USB1` en el inicio](./RPI4_USB1.md)
 
