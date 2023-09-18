@@ -3,6 +3,11 @@
 - [x] Montar `USB1` cuando la RPI4 se encienda.
 - [x] Script sh o python para configurar esto automaticamente
 
+## Issues and Bugs
+- No puedo entrar a internet desde mi RPI4 aunque todos pueden usar el internet que comparto.
+
+
+## Instalacion Manual
 ```
 sudo fdisk -l
 ```
