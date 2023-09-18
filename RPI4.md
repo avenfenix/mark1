@@ -1,7 +1,7 @@
 # Raspberry PI 4 of Mark I
 
 ## Indice
-- [Montar `USB1` automaticamente](./RPI4.md#montar-usb1-automaticamente)
+- [Montar `USB1` en el inicio](./RPI4.md#montar-usb1-automaticamente)
 
 ## Installation rpi-imager
 - [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
