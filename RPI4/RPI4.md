@@ -1,7 +1,7 @@
 # Raspberry PI 4 of Mark I
 
-## Indice
-- [Montar `USB1` en el inicio](./RPI4.md#montar-usb1-al-encender)
+## Temas
+- [Montar `USB1` en el inicio](./RPI4_USB1.md)
 
 ## Installation rpi-imager
 - [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
@@ -22,31 +22,6 @@ curl -fsSL https://code-server.dev/install.sh | sh
 ### Referencias
 - [Home - code-server Docs](https://coder.com/docs/code-server/latest)
 
-## Montar `USB1` al encender 
-- [x] Montar `USB1` cuando la RPI4 se encienda.
-- [x] Script sh o python para configurar esto automaticamente
-
-```
-sudo fdisk -l
-```
-
-```
-sudo blkid
-```
-
-```
-echo "UUID=<UUID de USB1> /home/$USER/USB1 ext4  user,errors=remount-ro,auto,exec,rw" >> /etc/fstab
-```
-
-```
-#!/bin/bash
-
-UUID=$(blkid -s UUID -o value /dev/sda1)
-
-echo "UUID=$UUID /home/$USER/USB1 ext4 user,errors=remount-ro,auto,exec,rw 0 0" | sudo tee -a /etc/fstab
-```
-### Referencias
-- [Montar particiones al iniciar linux](https://vivaelsoftwarelibre.com/montar-particiones-al-iniciar-linux-automaticamente/)
 
 ## To Do
 
