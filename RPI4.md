@@ -4,6 +4,15 @@
 - [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
 
 
+```
+cd /home/$USER
+rm -r *
+mkdir USB1
+```
+
+## Montar `USB1` automaticamente
+
 ## To Do
 
 - [ ] [Compartir internet como access point al iniciar](./RPI4_AP.md)
+- [ ] Montar `USB1` automaticamente.
