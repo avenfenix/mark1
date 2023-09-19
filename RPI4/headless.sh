@@ -26,6 +26,3 @@ curl -1sLf 'https://dl.cloudsmith.io/public/moonlight-game-streaming/moonlight-q
 apt install moonlight-qt
 apt update
 apt upgrade
-
-## CLEAN
-rm -r sunshine*
