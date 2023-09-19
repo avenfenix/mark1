@@ -1,15 +1,19 @@
 #!/bin/bash
 # GTA3 Install
 
-cd /home/$USER/USB1/games/
-mkdir GTAIII
+USERNAME="$USER"
+
+cd /home/$USERNAME/USB1/games/
+sudo mkdir GTAIII
 cd GTAIII
-wget https://github.com/Jai-JAP/RPi-GTA-re/blob/main/re3-gamefiles.zip
-unzip re3-gamefiles.zip
-cp -r re3-gamefiles/* .
-rm -r re3-gamefiles
-wget https://github.com/Jai-JAP/RPi-GTA-re/blob/main/re3-rel-arm64.zip
-unzip re3-rel-arm64.zip
-rm re3-rel-arm64.zip
-cp /home/$USER/USB1/games/gta3.zip .
-unzip gta3.zip
+sudo git clone https://github.com/Jai-JAP/RPi-GTA-re
+cd RPi-GTA-re
+sudo unzip re3-gamefiles.zip
+sudo unzip re3-rel-arm64.zip
+cd ..
+sudo cp -r ./RPi-GTA-re/re3-gamefiles/* .
+sudo cp ./RPi-GTA-re/re3 .
+sudo rm -r ./RPi-GTA-re/
+sudo cp /home/$USERNAME/USB1/games/gta3.zip .
+sudo unzip gta3.zip
+sudo rm gta3.zip
