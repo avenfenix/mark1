@@ -1,31 +1,25 @@
 #!/bin/bash
 
 USERNAME="$1"
+echo "Installing for $USERNAME"
 
 ## CONFIG PERSONAL
 cat ./boot/config.txt > /boot/config.txt
 
 ## ETC FILES
-rm /etc/hosts
-rm /etc/rc.local
+rm "/etc/rc.local"
 cp ./etc/* /etc/
-
-## HOME
-cd /home/$USER
-rm -r *
 
 ## MONTAR USB1 AUTOMATICAMENTE
 UUID=$(blkid -s UUID -o value /dev/sda1)
 echo "UUID=$UUID /home/$USERNAME/USB1 ext4 user,errors=remount-ro,auto,exec,rw 0 0" | sudo tee -a /etc/fstab
 
 ## IP ESTATICA USB0 
-echo "interface usb0\nstatic ip_address=192.168.42.2/24" | sudo tee -a /etc/dhcpcd.conf
+echo "interface usb0\nstatic ip_address=192.168.42.2/24" >> /etc/dhcpcd.conf
 
-## ACTUALIZAR SISTEMA
+## PAQUETES
 apt-get update
-apt-get upgrade
-
-## SOFTWARE
+apt-get remove chromium-browser
 apt-get install firefox-esr
 apt-get install screen
 #apt-get install git
@@ -47,7 +41,7 @@ apt upgrade
 git clone https://github.com/Jack477/CommanderPi
 chmod +x install.sh
 ./install.sh
-apt-get install -y sysbench
 
-### REMOVE 
-apt-get remove chromium-browser
+## CLEAN
+rm -r sunshine*
+rm -r CommanderPi
