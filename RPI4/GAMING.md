@@ -14,9 +14,9 @@ git clone https://github.com/Jack477/CommanderPi
 sudo chmod +x install.sh
 
 ./install.sh
-
-To download Sysbench
-
+```
+## To download Sysbench
+```
 sudo apt-get install -y sysbench
 
 sysbench --test=cpu --cpu-max-prime=20000 run
