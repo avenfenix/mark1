@@ -8,6 +8,8 @@ https://www.raspberrypi.com/documentation/computers/config_txt.html
 
 https://www.youtube.com/watch?v=QI5KKsjVKQE
 
+https://www.youtube.com/watch?v=97ZaWYjsZdQ
+
 ## Commander Pi Download
 ```
 git clone https://github.com/Jack477/CommanderPi
