@@ -10,6 +10,10 @@ https://www.youtube.com/watch?v=QI5KKsjVKQE
 
 https://www.youtube.com/watch?v=97ZaWYjsZdQ
 
+https://foratdot.info/como-hacer-overclock-a-raspberry-pi-4/
+
+https://www.jeffgeerling.com/blog/2022/gaming-1080p-and-120-hz-on-raspberry-pi-4
+
 ## Commander Pi Download
 ```
 git clone https://github.com/Jack477/CommanderPi
