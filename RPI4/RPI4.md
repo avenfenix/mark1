@@ -10,6 +10,7 @@ sudo ./install.sh $USER
 ```
 
 ## Temas
+- [Raspberry PI Boost and Gaming v_v](./GAMING.md)
 - [Montar `USB1` en el inicio](./USB1.md)
 - [Instalar code-server](./CODE.md)
 - [RPI4 como Access Point](./AP.md)
