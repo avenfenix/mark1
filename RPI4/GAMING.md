@@ -7,3 +7,17 @@ https://forums-raspberrypi-com.translate.goog/viewtopic.php?t=139003&_x_tr_sl=au
 https://www.raspberrypi.com/documentation/computers/config_txt.html
 
 https://www.youtube.com/watch?v=QI5KKsjVKQE
+
+## Commander Pi Download
+```
+git clone https://github.com/Jack477/CommanderPi
+sudo chmod +x install.sh
+
+./install.sh
+
+To download Sysbench
+
+sudo apt-get install -y sysbench
+
+sysbench --test=cpu --cpu-max-prime=20000 run
+```
