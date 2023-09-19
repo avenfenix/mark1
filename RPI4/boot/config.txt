@@ -24,6 +24,11 @@
 #hdmi_group=1
 #hdmi_mode=1
 
+# Force HDMI mode at 1080p60
+hdm1_force_hotplug=1
+hdmi_group=2
+hdmi_mode=28
+
 # uncomment to force a HDMI mode rather than DVI. This can make audio work in
 # DMT (computer monitor) modes
 #hdmi_drive=2
@@ -36,7 +41,7 @@
 #sdtv_mode=2
 
 #uncomment to overclock the arm. 700 MHz is the default.
-#arm_freq=800
+arm_freq=2000
 
 # Uncomment some or all of these to enable the optional hardware interfaces
 #dtparam=i2c_arm=on
@@ -81,5 +86,8 @@ otg_mode=1
 arm_boost=1
 
 [all]
+gpu_mem=256
 
-dtoverlay=rpivid-v4l2
+# Custom overclocking settings
+gpu_freq=600
+over_voltage=6
