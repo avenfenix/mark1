@@ -19,3 +19,4 @@ https://en.wikibooks.org/wiki/Guide_to_X11/Starting_Sessions
 
 
 https://askubuntu.com/questions/441040/failed-to-get-size-of-gamma-for-output-default-when-trying-to-add-new-screen-res
+https://techoverflow.net/2019/02/23/how-to-run-x-server-using-xserver-xorg-video-dummy-driver-on-ubuntu/
