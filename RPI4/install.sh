@@ -3,6 +3,10 @@
 USERNAME="$1"
 echo "Installing for $USERNAME"
 
+## IP ESTATICA USB0
+echo "interface usb0" >> /etc/dhcp.conf
+echo static ip_address=192.168.42.2/24 >> /etc/dhcpcd.conf
+
 ## CONFIG PERSONAL
 cat ./boot/config.txt > /boot/config.txt
 
