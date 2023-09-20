@@ -1,3 +1,4 @@
 # Headless for raspberry pi 4
 
 [RPi Xorg rpi Driver](https://elinux.org/RPi_Xorg_rpi_Driver)https://elinux.org/RPi_Xorg_rpi_Driver
+[gt710](https://gist.github.com/geerlingguy/9f1510ab028e68b712381520308db2af)https://gist.github.com/geerlingguy/9f1510ab028e68b712381520308db2af
