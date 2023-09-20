@@ -6,3 +6,6 @@
 
 
 [xd](https://kodi.wiki/view/Archive:Creating_and_using_edid.bin_via_xorg.conf)
+
+
+[edids](http://sources.buildroot.net/armbian-firmware/git/edid/)
