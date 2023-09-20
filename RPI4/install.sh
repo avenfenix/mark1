@@ -24,6 +24,8 @@ apt-get install screen
 
 ### OVERCLOCK
 git clone https://github.com/Jack477/CommanderPi
+cd CommanderPi
 chmod +x install.sh
 ./install.sh
+cd ..
 rm -r CommanderPi

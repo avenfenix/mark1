@@ -1,0 +1,14 @@
+[Unit]
+Description=Sunshine is a self-hosted game stream host for Moonlight.
+StartLimitIntervalSec=500
+StartLimitBurst=5
+Requires=pulseaudio.service
+After=pulseaudio.service
+
+[Service]
+ExecStart=/usr/bin/sunshine
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=graphical-session.target
