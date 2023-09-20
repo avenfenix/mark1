@@ -23,3 +23,4 @@ https://techoverflow.net/2019/02/23/how-to-run-x-server-using-xserver-xorg-video
 https://www.enmimaquinafunciona.com/pregunta/61649/como-puedo-ejecutar-lightdm-xvfb-en-un-raspberry-pi
 
 https://www.youtube.com/watch?v=dtuy09mqBPI
+https://kiljan.org/2021/02/20/64-bit-arch-linux-arm-on-a-raspberry-pi-4-model-b-with-8-gb-of-ram/
