@@ -70,6 +70,10 @@ Crear una API en Golang para gestionar servicios de usuario en tu Raspberry Pi 4
 
 5. **Implementa la lógica de gestión de servicios**: Dentro de los manejadores de rutas, implementa la lógica para habilitar/deshabilitar y controlar los servicios de usuario según tu requerimiento.
 
+## Referencias
+
+- [Documentacion exec - Golang](https://runebook.dev/es/docs/go/os/exec/index)
+
 6. **Ejecuta tu API**: Puedes ejecutar tu API utilizando `go run main.go`. Tu API estará disponible en `http://localhost:8080` en tu Raspberry Pi. Asegúrate de que tu Raspberry Pi esté accesible desde tu tablet en la misma red local.
 
 7. **Seguridad**: Ten en cuenta que la seguridad es importante, especialmente si planeas controlar servicios desde una API expuesta en una red. Considera agregar autenticación y autorización a tu API.
