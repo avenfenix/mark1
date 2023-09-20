@@ -11,6 +11,11 @@
 [edids](http://sources.buildroot.net/armbian-firmware/git/edid/)
 
 [dummy1](https://www.reddit.com/r/cloudygamer/comments/12gp787/sunshine_how_to_always_assign_correct_output/)
+
 https://en.wikibooks.org/wiki/Guide_to_X11/Starting_Sessions
 
+
 [lets go](https://superuser.com/questions/1779799/xrandr-cant-open-display-trying-to-add-fake-display)
+
+
+https://askubuntu.com/questions/441040/failed-to-get-size-of-gamma-for-output-default-when-trying-to-add-new-screen-res
