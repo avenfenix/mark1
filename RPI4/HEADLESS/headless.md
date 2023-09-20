@@ -3,3 +3,6 @@
 [RPi Xorg rpi Driver](https://elinux.org/RPi_Xorg_rpi_Driver)
 
 [gt710](https://gist.github.com/geerlingguy/9f1510ab028e68b712381520308db2af)
+
+
+[xd](https://kodi.wiki/view/Archive:Creating_and_using_edid.bin_via_xorg.conf)
