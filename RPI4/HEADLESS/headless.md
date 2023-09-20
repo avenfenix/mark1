@@ -11,3 +11,4 @@
 [edids](http://sources.buildroot.net/armbian-firmware/git/edid/)
 
 [dummy1](https://www.reddit.com/r/cloudygamer/comments/12gp787/sunshine_how_to_always_assign_correct_output/)
+https://en.wikibooks.org/wiki/Guide_to_X11/Starting_Sessions
