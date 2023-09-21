@@ -1,0 +1,11 @@
+[Unit]
+Description=RPI4 API for Mark I
+
+[Service]
+ExecStart=/home/user/bin/rpi-api
+WorkingDirectory=/home/user/.config/rpi-api/
+Environment="GIN_MODE=release"
+Restart=always
+
+[Install]
+WantedBy=default.target
