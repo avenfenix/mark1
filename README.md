@@ -4,7 +4,6 @@ Source Code and Development of Mark I.
 ## Components
 - [Raspberry Pi 4b rev1.4](./RPI4/RPI4.md)
 - Tablet with MT6592 CPU (Bootloader Locked)
-- Motorola E7i Power (Bootloader Locked)
 - [USB SanDisk 3.2Gen1](./USB1/USB1.md) (28,67 GiB)
 ## Descripcion
 
