@@ -1,5 +1,12 @@
 # Headless for raspberry pi 4
 
+Tareas
+- [ ] Evitar pedir contraseña en entorno grafico.
+- [ ] Instalar Raspberry PI OS Lite
+- [ ] Instalar paquetes basicos
+- [ ] 
+
+
 [RPi Xorg rpi Driver](https://elinux.org/RPi_Xorg_rpi_Driver)
 
 [gt710](https://gist.github.com/geerlingguy/9f1510ab028e68b712381520308db2af)
