@@ -4,7 +4,8 @@ Tareas
 - [ ] Evitar pedir contraseña en entorno grafico.
 - [ ] Instalar Raspberry PI OS Lite
 - [ ] Instalar paquetes basicos
-- [ ] 
+- [ ] Instalar Sunshine
+- [ ] Instalar Xorg Server
 
 
 [RPi Xorg rpi Driver](https://elinux.org/RPi_Xorg_rpi_Driver)
