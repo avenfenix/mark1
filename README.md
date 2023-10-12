@@ -3,7 +3,6 @@ Source Code and Development of Mark I.
 
 ## Components
 - [Raspberry Pi 4b rev1.4](./RPI4/RPI4.md)
-- 
 ## Descripcion
 
 
