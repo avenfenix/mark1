@@ -12,6 +12,7 @@ mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-6.0.414-linux-arm64.tar.gz -C $HOME/
 echo "export DOTNET_ROOT=$HOME/dotnet" >> $HOME/.bashrc
 echo "export PATH=$PATH:$HOME/dotnet" >> $HOME/.bashrc
 echo "alias openbullet2=\"tmux new -d -s openbullet2 'bash ~/mark1/openbullet2.sh'\"" >> ~/.bashrc
+chmod +x ~/mark1/openbullet2.sh
 source .bashrc
 
 # Instalar OpenBullet
