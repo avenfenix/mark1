@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Requirements
+sudo apt-get install -y cmake
+
 cd ~
 git clone https://github.com/ptitSeb/box64
 cd box64
