@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd ~
 # Actualizar
 sudo apt-get update
