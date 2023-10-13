@@ -1,8 +1,8 @@
 cd ~
 # Actualizar
 sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install git tmux
+sudo apt-get -y upgrade 
+sudo apt-get -y install git tmux
 
 git clone https://github.com/avenfenix/mark1
 
@@ -11,8 +11,7 @@ wget https://download.visualstudio.microsoft.com/download/pr/a2afb4da-478b-4ffa-
 mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-6.0.414-linux-arm64.tar.gz -C $HOME/dotnet
 echo "export DOTNET_ROOT=$HOME/dotnet" >> $HOME/.bashrc
 echo "export PATH=$PATH:$HOME/dotnet" >> $HOME/.bashrc
-echo "alias openbullet2=\"tmux new -d -s openbullet2 'bash ~/mark1/openbullet2.sh'\"" >> ~/.bashrc
-chmod +x ~/mark1/openbullet2.sh
+echo "alias openbullet2=\\"tmux new -d -s openbullet2 'bash ~/mark1/openbullet2.sh'\\"" >> ~/.bashrc
 source .bashrc
 
 # Instalar OpenBullet
