@@ -27,7 +27,7 @@ Exec=bash -c "wine explorer"
 Icon=wine
 Type=Application' > ~/Desktop/Wine32_Explorer.desktop
 chmod +x ~/Desktop/Wine32_Explorer.desktop
-cp ~/Desktop/Wine32_Explorer.desktop /usr/share/applications/
+sudo cp ~/Desktop/Wine32_Explorer.desktop /usr/share/applications/
 
 cd ~/Desktop
 echo '[Desktop Entry]
@@ -36,7 +36,7 @@ Exec=bash -c "wine64 explorer"
 Icon=wine
 Type=Application' > ~/Desktop/Wine64_Explorer.desktop
 chmod +x ~/Desktop/Wine64_Explorer.desktop
-cp ~/Desktop/Wine64_Explorer.desktop /usr/share/applications/
+sudo cp ~/Desktop/Wine64_Explorer.desktop /usr/share/applications/
 
 cd ~/Desktop
 echo '[Desktop Entry]
@@ -45,7 +45,7 @@ Exec=bash -c "winetricks32 --gui"
 Icon=wine
 Type=Application' > ~/Desktop/Winetricks32_gui.desktop
 chmod +x ~/Desktop/Winetricks32_gui.desktop
-cp ~/Desktop/Winetricks32_gui.desktop /usr/share/applications/
+sudo cp ~/Desktop/Winetricks32_gui.desktop /usr/share/applications/
 
 cd ~/Desktop
 echo '[Desktop Entry]
@@ -54,7 +54,7 @@ Exec=bash -c "winetricks64 --gui"
 Icon=wine
 Type=Application' > ~/Desktop/Winetricks64_gui.desktop
 chmod +x ~/Desktop/Winetricks64_gui.desktop
-cp ~/Desktop/Winetricks64_gui.desktop /usr/share/applications/
+sudo cp ~/Desktop/Winetricks64_gui.desktop /usr/share/applications/
 
 
 chmod +x /usr/local/bin/winetricks64
