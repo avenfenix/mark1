@@ -7,7 +7,7 @@ sudo apt install -y libboost-dev
 sudo apt install -y libboost-filesystem-dev
 
 # SDL2
-sudo apt-get install libfreetype6-dev libgl1-mesa-dev libgles2-mesa-dev libdrm-dev libgbm-dev libudev-dev libasound2-dev liblzma-dev libjpeg-dev libtiff-dev libwebp-dev git build-essential
+sudo apt-get install -y libfreetype6-dev libgl1-mesa-dev libgles2-mesa-dev libdrm-dev libgbm-dev libudev-dev libasound2-dev liblzma-dev libjpeg-dev libtiff-dev libwebp-dev git build-essential
 cd ~
 wget https://libsdl.org/release/SDL2-2.0.10.tar.gz
 tar zxvf SDL2-2.0.10.tar.gz
